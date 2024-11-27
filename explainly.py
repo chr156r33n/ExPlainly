@@ -23,7 +23,7 @@ def call_openai_api(api_key, prompt):
     return response.json()  # Return the JSON response
 
 # Streamlit app layout
-st.title("Proofly")
+st.title("ExPlainly")
 text_input = st.text_area("What are you trying to learn or trying to do?")
 purpose_input = st.text_input("Who is the audience/what is the purpose for this?")
 
